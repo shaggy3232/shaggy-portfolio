@@ -3,22 +3,7 @@ import React, { Component } from 'react';
 import { Container, Col, Row, Navbar } from "react-bootstrap";
 import "./Iam.css"
 import me from '../../Assets/undraw_web_developer_re_h7ie.svg'
-import "../skills/skills.scss";
 
-import {
-  ReactJs,
-  Redux,
-  Reduxsaga,
-  Sass,
-  Javascript,
-  Html5,
-  CssThree,
-  Nodedotjs,
-  Express,
-  Mysql,
-  R,
-  Mongodb,
-} from "@icons-pack/react-simple-icons";
 
 class Iam extends Component {
 

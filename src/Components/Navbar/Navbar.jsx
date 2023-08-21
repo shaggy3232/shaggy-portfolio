@@ -1,28 +1,22 @@
-
-import React, { Component } from 'react';
-import { Container, Col, Row } from "react-bootstrap";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Navbar.css"
+import Contact from '../Contact/Contact';
 
-class Navbar extends Component {
-
-    render(){
-        return(
-            <nav className='portfolio-nav'>
-            <div>
-              This is a nav bar
-            </div>
-            <div>
-              <ul>
-                <li>Home</li>
-                <li>Blog</li>
-                <li>Projects</li>
-                <li>About</li>
-                <li>Contact</li>
-              </ul>
-            </div>
-          </nav>
-        )}
-
+function Navi() {
+  return (
+    <>
+      <Navbar bg="dark" data-bs-theme="dark">
+        <Container fluid>
+          <Navbar.Brand href="#home">WhoisShaggy</Navbar.Brand>
+          <Nav className="me-auto">
+          </Nav>
+        </Container>
+      </Navbar>
+    </>
+  );
 }
 
-export default Navbar
+export default Navi;

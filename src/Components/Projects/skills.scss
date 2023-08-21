@@ -14,6 +14,7 @@ $ruler: 16px;
     }
     .skills-infos {
       display: flex;
+      flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
       .skill-group {
